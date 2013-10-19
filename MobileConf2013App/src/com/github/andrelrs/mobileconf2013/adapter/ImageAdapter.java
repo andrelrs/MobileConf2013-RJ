@@ -24,7 +24,7 @@ public class ImageAdapter extends BaseAdapter {
 
 	@Override
 	public Object getItem(int position) {
-		return new String("Filme legal número " + position);
+		return new String(mContext.getResources().getString(R.string.movie) + " " + (position + 1));
 	}
 
 	@Override

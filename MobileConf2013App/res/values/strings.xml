@@ -4,5 +4,6 @@
     <string name="app_name">MobileConf2013App</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="movie">Movie</string>
 
 </resources>
