@@ -17,9 +17,24 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
-    
     <style name="LinearLayoutStyle">
         <item name="android:orientation">vertical</item>
     </style>
-    
+
+    <style name="RelativeLayout_Imagem">
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="RelativeLayout_Assistir">
+        <item name="android:layout_below">@id/nome</item>
+    </style>
+
+    <style name="RelativeLayout_Favoritar">
+        <item name="android:layout_below">@id/assistir</item>
+    </style>
+
+    <style name="RelativeLayout_Descricao">
+        <item name="android:layout_below">@id/favoritar</item>
+    </style>
+
 </resources>

@@ -1,5 +1,24 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
+
     <style name="LinearLayoutStyle">
         <item name="android:orientation">horizontal</item>
     </style>
+
+    <style name="RelativeLayout_Imagem">
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="RelativeLayout_Assistir">
+        <item name="android:layout_toRightOf">@id/imagem</item>
+    </style>
+
+    <style name="RelativeLayout_Favoritar">
+        <item name="android:layout_toRightOf">@id/imagem</item>
+        <item name="android:layout_below">@id/assistir</item>
+    </style>
+
+    <style name="RelativeLayout_Descricao">
+        <item name="android:layout_below">@id/nome</item>
+    </style>
+
 </resources>
