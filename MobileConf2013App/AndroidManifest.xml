@@ -32,7 +32,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.github.andrelrs.mobileconf2013.activity.GridLayoutActivity"
+            android:name="com.github.andrelrs.mobileconf2013.activity.RelativeLayoutActivity"
             android:label="Desafio 3" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
